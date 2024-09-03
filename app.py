@@ -16,9 +16,6 @@ load_dotenv()
 
 
 from langchain_community.llms import GooglePalm
-GOOGLE_API_KEY="AIzaSyDE_I7gKf4WE6sW3wuHYFEfDbnACoKKawE"
-
-
 
 def init_database(hostname:str, port:str,username:str, password:str, database:str)-> SQLDatabase:
     db_uri=f"mysql+mysqlconnector://{username}:{password}@{hostname}:{port}/{database}"
