@@ -1,7 +1,8 @@
-##Chat with SQL
+### Chat with SQL
+A Streamlit-based application that allows users to interact with a MySQL database through natural language queries with the help of Mistral AI and Google Palm
 
-### Project Title
-- **Chat with MySQL**: A Streamlit-based application that allows users to interact with a MySQL database through natural language queries.
+## Prototype 
+https://github.com/user-attachments/assets/c7390fd1-85ef-42bf-ad29-33dec41c4d57
 
 ### Description
 - **Overview**: This application enables users to chat with a SQL assistant that interprets natural language questions and generates SQL queries to fetch data from a MySQL database. It then provides natural language responses based on the SQL query results.
